@@ -1,17 +1,11 @@
-### Running xv6 on local machine (tested on Ubuntu 21.04)
+RUNNING xv6 ON LOCAL ENVIRONMENT  (tested on Ubuntu 21.04)
 
-- Install recommended tools on the linux distro (or see documentation for more details on patched QEMU)
-    ```
-    sudo apt install build-essential gcc qemu qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager
-    ```
-- Clone this repository with a modified Makefile (Gets cloned into xv6 directory)
-    ```
-    git clone https://github.com/wowufoundme/xv6-public.git xv6
-    ```
-- Run the `make clean`, followed by `make` and finally `make qemu`
+- Install recommended tools on the linux distro (or see documentation for more details on patched QEMU): sudo apt install build-essential gcc qemu qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager
+- Clone this repository with a modified Makefile (Gets cloned into xv6 directory): git clone https://github.com/wowufoundme/xv6-public.git xv6
+- Run the make clean, followed by make and finally make qemu
 - A new window with xv6 opens.
 
-#### Original README.md below
+Original README.md below
 
 --------------------------------------------------
 
